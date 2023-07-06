@@ -1,0 +1,38 @@
+.bg {
+  height: 100vh;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 1rem;
+  text-transform: uppercase;
+  color: var(--corTitle);
+}
+
+button:hover {
+  color: var(--btn-hover);
+  transition: 0.5s;
+}
+
+.btn-light.ativo {
+  display: none;
+}
+
+.btn-dark {
+  display: none;
+}
+
+.btn-dark.ativo {
+  display: block;
+}
